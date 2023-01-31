@@ -14,7 +14,8 @@ namespace Teste_Git_e_GitHub__VStudio_
 
             int idade = 19;
             Console.WriteLine("\n\nQual é a sua idade? " + "\n");
-            Console.WriteLine("Meu idade é {0} ", idade + "\n\n");
+            Console.WriteLine(
+                "Meu idade é {0} ", idade + "\n\n");
 
             Console.ReadLine();
         }
